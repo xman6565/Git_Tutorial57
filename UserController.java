@@ -32,4 +32,12 @@ public class UserController{
 
        return "user/delete"; 
    }
+
+  // 회원수정 페이지 페이지로 이동 -- master에서 작업
+   @RequestMapping("/user/selete.do")
+    public String selete(){
+        logger.info("경로 : selete")
+
+       return "user/selete"; 
+   }
 }
